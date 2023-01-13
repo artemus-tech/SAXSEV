@@ -1,0 +1,42 @@
+[OPTION]
+default_alpha_start = -10
+default_alpha_end = 11
+default_alpha_num = 41
+default_alpha_base = 10
+vfdf_dir_pref = logExp
+
+[PATH]
+input_data_path = C:\projects\input
+doc_data_path = C:\projects\doc\index.html
+log_file_path = C:\projects\log\saxs.log
+output_data_path = C:\projects\output
+
+[PARAMS_W]
+impmin = 6
+stabil = 1
+valcen = 1
+sysdev = 2
+positiv = 1
+oscil = 1
+discrp = 3
+errdev = 6
+
+[PARAMS_C]
+impmin = 0.2
+stabil = 0.02
+valcen = 0.01
+sysdev = 0.2
+positiv = 0.01
+oscil = 1.3
+discrp = 0.2
+errdev = 0.1
+
+[PARAMS_A]
+impmin = 0
+stabil = 0
+valcen = 1
+sysdev = 1
+positiv = 1
+oscil = 0.3
+discrp = 0.7
+errdev = 0
